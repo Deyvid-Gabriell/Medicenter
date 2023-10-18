@@ -103,7 +103,6 @@ nav a:hover{
 
 .banner_options{
     height: 210px;
-    background-color: red;
     display: flex;
     
     
@@ -112,10 +111,17 @@ nav a:hover{
 .banner1,
 .banner2,
 .banner3{
+    transition: transform 0.4s linear;
     flex: 1;
     color: white;
     padding: 20px;
     
+}
+
+.banner1:hover,
+.banner2:hover,
+.banner3:hover{
+    transform: translateY(-15px);
 }
 
 .banner1{
